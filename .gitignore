@@ -1,2 +1,40 @@
-# Google App Engine generated folder
-appengine-generated/
+# OS and IDE generated files
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# User-specific files
+.idea/
+.vscode/
+
+# Dependency files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Generated user manual PDFs
+user_manuals/*.pdf
+advanced_user_manuals/*.pdf
+
+# Ignore sensitive configuration
+config.ini
+
+# Ignore compiled styles
+styles.css
+
+# Ignore compiled scripts
+scripts.js
