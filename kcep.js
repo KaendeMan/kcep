@@ -38,3 +38,13 @@ navigation.addEventListener('click', (event) => {
         }
     }
 });
+const userManual = {
+    title: "KCEP Educational Computer User Manual",
+    description: "A comprehensive guide to using the KCEP Educational Computer effectively.",
+    downloadLink: "user_manuals/KCEP_User_Guide.pdf"
+};
+
+// Accessing properties of the userManual object
+console.log("User Manual Title:", userManual.title);
+console.log("User Manual Description:", userManual.description);
+console.log("Download Link:", userManual.downloadLink);
