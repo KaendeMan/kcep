@@ -34,7 +34,7 @@ advanced_user_manuals/*.pdf
 config.ini
 
 # Ignore compiled styles
-styles.css
+kcp.css
 
 # Ignore compiled scripts
-scripts.js
+kcep.js
