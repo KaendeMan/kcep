@@ -78,6 +78,31 @@ Before you begin, make sure you have the following software and tools installed:
 
 Contributions are welcome! If you'd like to contribute to the KCEP Educational Computer project, please read our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and more.
 
+## Support and Assistance
+
+If you have any questions, encounter issues, or need assistance with the KCEP Educational Computer, we're here to help! You can find support through the following channels:
+
+### Forum and Community
+
+Join our vibrant community of learners and educators on our forum. Here, you can ask questions, share your experiences, and learn from others:
+
+- Visit the [Forum](docs/forum.md)
+
+### Contact Us
+
+For personalized assistance, you can reach out to us directly:
+
+- Email: [support@kcep.edu](mailto:support@kcep.edu)
+- Contact Form: [Contact Us](https://www.kcep.edu/contact)
+
+Whether you're a beginner or an experienced user, we're dedicated to providing the support you need to make the most of the KCEP Educational Computer.
+
+---
+
+**KCEP Educational Computer Project**
+
+_For inquiries, please contact support@kcep.edu [support@kcep.edu](mailto:support@kcep.edu)_
+
 ## License
 
 The KCEP Educational Computer project is open-source and available under the [MIT License](LICENSE).
