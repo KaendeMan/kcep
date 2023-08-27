@@ -11,5 +11,5 @@ scripts:
   build: webpack --config webpack.config.js
   test: jest
 
-author: Your Name
+author: Albert Musungu
 license: MIT
