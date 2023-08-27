@@ -110,5 +110,25 @@
         const registrationForm = document.getElementById('registration-form');
         registrationForm.addEventListener('submit', registerUser);
     </script>
+        </footer>
+
+<!-- Load external JavaScript file -->
+<script src="kcep.js"></script>
+
+<!-- Function to register a user -->
+<script>
+    function registerUser(event) {
+        // ... (your registerUser function code)
+    }
+
+    // Attach the registerUser function to the form's submit event
+    const registrationForm = document.getElementById('registration-form');
+    registrationForm.addEventListener('submit', registerUser);
+
+    // Update and display the current date
+    const currentDateElement = document.getElementById('current-date');
+    const currentDate = new Date().toLocaleDateString();
+    currentDateElement.textContent = 'Current Date: ' + currentDate;
+</script>
 </body>
 </html>
