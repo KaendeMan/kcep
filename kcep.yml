@@ -1,0 +1,15 @@
+name: KCEP Educational Computer
+version: 1.0.0
+description: An educational computer project to enhance digital literacy.
+
+dependencies:
+  - node: 14.17.5
+  - npm: 6.14.14
+
+scripts:
+  start: node server.js
+  build: webpack --config webpack.config.js
+  test: jest
+
+author: Your Name
+license: MIT
