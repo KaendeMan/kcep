@@ -1,50 +1,61 @@
-// Declare variables
-const projectTitle = "KCEP Educational Computer";
-const userManual = "User Manual for KCEP Educational Computer";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCEP Educational Computer</title>
+    <link rel="stylesheet" href="kcep.css">
+    <style>
+        /* Additional styling specific to the index.html */
+        /* ... (your existing styles) ... */
+    </style>
+    <script>
+         const projectTitle = "KCEP Educational Computer";
+         let userManual = "KCEP_User_Guide.pdf";
+    </script>  
+</head>
+<body>
+    <header>
+        <!-- Header and navigation (your existing code) -->
+    </header>
 
-// DOM Elements
-const navigation = document.querySelector('nav');
-const menuButton = document.querySelector('.menu-button');
-const menuList = document.querySelector('.menu-list');
+    <main>
+        <!-- About, Features, Get Started sections (your existing code) -->
 
-// Toggle mobile menu
-menuButton.addEventListener('click', () => {
-    try {
-        menuList.classList.toggle('show');
-    } catch (error) {
-        console.error("An error occurred while toggling the menu:", error);
-    }
-});
+        <!-- Registration Form -->
+        <section id="register" class="section">
+            <h2>Register</h2>
+            <form id="registration-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
 
-// Close mobile menu when a menu item is clicked
-menuList.addEventListener('click', () => {
-    try {
-        menuList.classList.remove('show');
-    } catch (error) {
-        console.error("An error occurred while closing the menu:", error);
-    }
-});
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
 
-// Smooth scroll to sections
-navigation.addEventListener('click', (event) => {
-    if (event.target.tagName === 'A') {
-        try {
-            event.preventDefault();
-            const targetId = event.target.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            targetSection.scrollIntoView({ behavior: 'smooth' });
-        } catch (error) {
-            console.error("An error occurred while scrolling to section:", error);
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Contact section (your existing code) -->
+    </main>
+
+    <!-- Footer (your existing code) -->
+
+    <!-- Load external JavaScript file -->
+    <script src="kcep.js"></script>
+    
+    <!-- Function to register a user -->
+    <script>
+        function registerUser(event) {
+            // ... (your registerUser function code)
         }
-    }
-});
-const userManual = {
-    title: "KCEP Educational Computer User Manual",
-    description: "A comprehensive guide to using the KCEP Educational Computer effectively.",
-    downloadLink: "user_manuals/KCEP_User_Guide.pdf"
-};
 
-// Accessing properties of the userManual object
-console.log("User Manual Title:", userManual.title);
-console.log("User Manual Description:", userManual.description);
-console.log("Download Link:", userManual.downloadLink);
+        // Attach the registerUser function to the form's submit event
+        const registrationForm = document.getElementById('registration-form');
+        registrationForm.addEventListener('submit', registerUser);
+    </script>
+</body>
+</html>
