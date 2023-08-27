@@ -32,6 +32,40 @@ To get started with the KCEP Educational Computer, follow these steps:
 3. Explore the user manual and documentation to understand the platform's features.
 4. Start experimenting with programming projects and hardware interactions.
 
+## Operating System Installation
+
+Follow the steps below to install the operating system:
+
+1. Download the latest version of the operating system from [here](https://example.com/os-download).
+2. Create a bootable USB drive using [Rufus](https://rufus.ie) or [Etcher](https://www.balena.io/etcher/).
+3. Insert the USB drive into your computer and boot from it.
+4. Follow the on-screen instructions to complete the installation.
+
+![Operating System Installation](images/os_image.png)
+Make sure to replace https://example.com/os-download with the actual link to your OS download page and update the image filename (os_image.png) accordingly. Also, replace the link to Rufus and Etcher with the actual links if you're using different tools.
+
+This code will display the image within your README.md file and also hyperlink it to the OS installation documentation.
+
+## Installation Instructions
+
+To set up the KCEP Educational Computer on your system, follow these steps:
+
+### Prerequisites
+
+Before you begin, make sure you have the following software and tools installed:
+
+- [Node.js](https://nodejs.org/) (version 14.17.5)
+- [npm](https://www.npmjs.com/) (version 6.14.14)
+
+### Clone the Repository
+
+1. Open a terminal on your local machine.
+
+2. Clone the repository using the following command:
+
+   ```sh
+   git clone https://github.com/yourusername/KCEP-Educational-Computer.git
+
 ## Documentation
 
 - [Installation Guide](docs/installation.md)
