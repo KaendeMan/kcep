@@ -1,0 +1,15 @@
+{
+  "projectName": "KCEP Educational Computer",
+  "version": "1.0.0",
+  "author": "Albert Musungu",
+  "email": "albertmusungu5058@email.com",
+  "homepage": "https://www.kcep.edu",
+  "license": "MIT",
+  "dependencies": {
+    "node": "14.17.5",
+    "npm": "6.14.14"
+  },
+  "osDownloadLink": "https://mykaende.com/os-download",
+  "rufusLink": "https://rufus.ie",
+  "etcherLink": "https://www.balena.io/etcher/"
+}
