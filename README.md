@@ -36,7 +36,7 @@ To get started with the KCEP Educational Computer, follow these steps:
 
 Follow the steps below to install the operating system:
 
-1. Download the latest version of the operating system from [here](https://example.com/os-download).
+1. Download the latest version of the operating system from [here](https://mykaende.com/os-download).
 2. Create a bootable USB drive using [Rufus](https://rufus.ie) or [Etcher](https://www.balena.io/etcher/).
 3. Insert the USB drive into your computer and boot from it.
 4. Follow the on-screen instructions to complete the installation.
